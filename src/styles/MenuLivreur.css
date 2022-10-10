@@ -1,0 +1,71 @@
+.part-choose {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  width: 70%;
+  margin-left: 70px;
+  justify-content: space-evenly;
+}
+.payePoint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payePoint span {
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  text-align: end;
+}
+.payeEspece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payeEspece span {
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  text-align: end;
+}
+
+
+@media screen  and (max-width:1246px) {
+  .part-choose {
+   border: solid;
+   width: 100%;
+  }
+}
+@media screen  and (max-width:967px) {
+  .part-choose {
+   border: solid;
+   width: 130%;
+  }
+}
+@media screen and (max-width: 798px) {
+  .part-choose {
+    border: solid;
+    width: 150%;
+   }
+}
+@media screen and (max-width: 667px) {
+  .part-choose {
+    border: solid;
+    width: 170%;
+    margin-left: -40px;
+   }
+}
+@media screen and (max-width: 572px) {
+  .part-choose {
+    border: solid;
+    width: 220%;
+    margin-left: -70px;
+   }
+}
+@media screen and (max-width: 443px) {
+  .part-choose {
+    border: solid;
+    width: 250%;
+    margin-left: -70px;
+   }
+}

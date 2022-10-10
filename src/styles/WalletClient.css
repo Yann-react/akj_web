@@ -1,0 +1,129 @@
+.part-wallet {
+  width: 30%;
+  height: 55%;
+  margin-top: 130px;
+}
+.rondP {
+  border: solid 1px;
+  width: 23px;
+  height: 23px;
+  border-radius: 30px;
+}
+.part-profils {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.part-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.part-point :nth-child(0n + 1) {
+  font-size: 68px;
+  color: white;
+}
+.address-wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+@media screen and (max-width: 1330px) {
+  .part-profils {
+    width: 17%;
+    margin-left: -50px;
+  }
+}
+@media screen and (max-width: 1164px) {
+  .part-profils {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .part-profils {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 943px) {
+  .part-profils {
+    width: 25%;
+    margin-left: -100px;
+  }
+}
+@media screen and (max-width: 798px) {
+  .part-profils {
+    border: solid;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 667px) {
+  .part-profils {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .part-profils {
+    width: 37%;
+  }
+  .part-point {
+    width: 150%;
+    /* border: solid; */
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .part-profils {
+    width: 42%;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .part-profils {
+    width: 47%;
+  }
+  .part-point {
+    width: 150%;
+    /* border: solid; */
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .part-profils {
+    width: 53%;
+  }
+  .part-point {
+    width: 170%;
+    /* border: solid; */
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .part-profils {
+    width: 55%;
+  }
+  .part-point {
+    width: 170%;
+    /* border: solid; */
+    margin-left: -40px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .part-profils {
+    width: 60%;
+  }
+  .part-point {
+    width: 180%;
+    /* border: solid; */
+    margin-left: -50px;
+  }
+}

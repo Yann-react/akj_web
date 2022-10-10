@@ -1,0 +1,29 @@
+.part-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+    height: 50%;
+  }
+.part-input input {
+    width: 85%;
+    height: 15%;
+    border-radius: 5px;
+    background-color: #4D3A34;
+    border: 1px solid rgba(255, 255, 255, 0.523);
+  }
+.part-input input::placeholder{
+    color:white;
+    font-weight: bold;
+}
+.part-input button{
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    height: 25px;
+    font-weight: bold;
+    color: #4D3A34;
+
+}

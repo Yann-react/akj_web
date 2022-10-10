@@ -1,0 +1,124 @@
+.but-sign {
+  width: 80%;
+  height: 35px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  color: #4d3a34;
+}
+.for-sign{
+    margin-top: 20px;
+}
+
+.box-log {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 140%;
+  background-color: rgba(255, 255, 255, 0.578);
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1290px) {
+  .box-log {
+    width: 160%;
+  }
+ 
+}
+@media screen and (max-width: 1236px) {
+  .box-log {
+    width: 160%;
+  }
+}
+@media screen and (max-width: 1194.4px) {
+  .box-log {
+    width: 160%;
+  }
+}
+@media screen and (max-width: 1140px) {
+    .box-log {
+        width: 160%;
+      }
+}
+@media screen and (max-width: 952px) {
+    .box-log {
+        width: 180%;
+        height:65%;
+        
+      }
+      
+}
+@media screen and (max-width: 841.60px) {
+    .box-log {
+        width: 200%;
+        height: 70%;
+        
+    }
+}
+@media screen and (max-width: 706.40px) {
+    .box-log {
+        width: 230%;
+      }
+}
+@media screen and (max-width: 642.40px) {
+    .box-log {
+        width: 250%;
+      }
+}
+ 
+@media screen and (max-width: 564px) {
+    
+      .box-log{
+        margin-left: -70px;
+        width: 280%;
+        height: 100%;
+      }
+}
+
+@media screen and (max-width: 503.20px) {
+  .box-log{
+        margin-left: -115px;
+        width: 340%; 
+      }
+      .title_co{
+        margin-left:-105px;
+      }
+    
+}
+@media screen and (max-width: 403.2px) {
+    .box-log{
+        margin-left: -120px;
+        width: 380%;
+      }
+ .title_co{
+        margin-left:-115px;
+      }
+      .part-option {
+        margin-bottom: 90px;
+      }
+      .part-option p {
+        font-size: 13px;
+      }
+      .part-option {
+        margin-bottom: 40px;
+      }
+}
+@media screen and (max-width: 360px) {
+    .part_but :nth-child(0n + 1) {
+        width: 90%;
+      }
+      .part-log input {
+        width: 80%;
+      }
+      .part_but :nth-child(0n + 3) {
+        width: 140%;
+      }
+      
+     
+      .box-log{
+        margin-left: -110px;
+        width: 380%;
+      }
+}

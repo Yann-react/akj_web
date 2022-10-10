@@ -1,0 +1,30 @@
+.part-deconnection{
+    width: 30%;
+    height: 55%;
+    margin-top: 220px;
+}
+.part-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part-profil :nth-child(0n+2){
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.part-profil :nth-child(0n+3){
+    color: white;
+    font-size: 15px;
+}
+.part-deco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.part-deco :nth-child(0n+2){
+    color: white;
+    font-size: 30px;
+}
