@@ -67,7 +67,7 @@
 @media screen and (max-width: 1031.6px) {
   .part-text {
     width: 35%;
-    margin-right: -70px;
+    margin-right: -10px;
   }
 }
 @media screen and (max-width: 994.4px) {
@@ -128,7 +128,10 @@
 }
 @media screen and (max-width: 477.6px) {
   .part-text {
-    width: 77%;
+    width: 76%;
+    /* border: solid 1px; */
+    margin-right: 40px;
+
   }
 }
 @media screen and (max-width: 442.4px) {
@@ -136,30 +139,43 @@
     width: 84%;
   }
 }
-@media screen and (max-width: 403.2px) {
+@media screen and (max-width: 404px) {
   .part-text {
-    width: 86%;
+    width: 88%;
+    margin-right: 80px;
   }
 }
 @media screen and (max-width: 394px) {
   .part-text {
-    width: 97%;
-    margin-right: -50px;
+    width: 95%;
+    margin-right: 71px;
+  }
+  .text-welcome{
+    font-size: 21px;
   }
 }
-@media screen and (max-width: 354px) {
+@media screen and (max-width: 356px) {
   .part-text {
-    width: 106%;
+    width: 92%;
   }
+  .img-gene{
+    
+    height: 40%;
+  }
+  
 }
 @media screen and (max-width: 325px) {
   .part-text {
-    width: 114%;
+    width: 93%;
   }
 }
 @media screen and (max-width: 298px) {
   .part-text {
     width: 124%;
     margin-left: 100px;
+  }
+  .box-gene{
+    width: 100%;
+    height: 100%;
   }
 }
