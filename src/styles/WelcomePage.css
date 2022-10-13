@@ -139,6 +139,18 @@
     width: 84%;
   }
 }
+@media screen and (max-width: 415px) {
+  .part-text {
+    width: 83%;
+    margin-right:  32px;
+    /* border: solid 1px; */
+  }
+  .img-gene{
+    
+    height: 40%;
+  }
+  
+}
 @media screen and (max-width: 404px) {
   .part-text {
     width: 88%;
@@ -147,8 +159,9 @@
 }
 @media screen and (max-width: 394px) {
   .part-text {
-    width: 95%;
-    margin-right: 71px;
+    width: 84%;
+    margin-right: 40px;
+    /* border: 1px solid; */
   }
   .text-welcome{
     font-size: 21px;
