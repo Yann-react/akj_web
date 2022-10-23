@@ -34,6 +34,8 @@ export default function Signin() {
         // console.log(res);
         // console.log(res.data)
         console.log(res.data);
+        sessionStorage.setItem("email", res.data.email)
+        sessionStorage.setItem("password", res.data.password)
         navigate('/WalletClient/'+email)
         // storeToken(res.data);
         // setHomeShow(true);
