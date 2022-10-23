@@ -35,7 +35,8 @@ export default function LoginSuite(props) {
       //     [
       //       { text: "OK", onPress: () => console.log("OK Pressed") }
       //     ]
-      //   );       
+      //   ); 
+      alert("Email ou mots de passe incorrect")      
       console.log(error)           
 })
   };

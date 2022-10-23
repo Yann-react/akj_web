@@ -17,7 +17,7 @@ export default function ForgetPassword() {
           // console.log(res);
           console.log("dataddsds", res.data)
           navigate('/Login')
-         
+         alert("Mots de passe modifié avec success")
           
       })
       .catch(error =>{
@@ -27,11 +27,12 @@ export default function ForgetPassword() {
         //     [
         //       { text: "OK", onPress: () => console.log("OK Pressed") }
         //     ]
-        //   );       
+        //   );    
+        alert ("l'Email n'existe pas")  
         console.log(error)          
   }) 
       }
-  
+  console.log(email,password)
   return (
     <>
     <div className="box-gene">
@@ -40,8 +41,8 @@ export default function ForgetPassword() {
         <h1 className="title_cos">Mot De Passe Oublié</h1>
         <div className="box-logF">
           <div className="part-log for-sign">
-            <input type="email" placeholder="Email" name='email' onChange={(e)=>e.target.value} />
-            <input type="password" placeholder="Mot De Passe" name='password' onChange={(e)=>e.target.value} />
+            <input type="email" placeholder="Email" name='email' onChange={(e)=>setEmail(e.target.value)} />
+            <input type="password" placeholder="Mot De Passe" name='password' onChange={(e)=>setPassword(e.target.value)} />
             <button className="but-log" style={{marginTop:"50px"}} onClick={onChangePassword}>CONTINUER</button>
           </div>
         </div>
