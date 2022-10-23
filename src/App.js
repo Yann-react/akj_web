@@ -21,12 +21,15 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<WelcomePage />} />
+            
             <Route path="/Login" element={<Login />} />
-            <Route path="/LoginSuite" element={<LoginSuite />} />
+            <Route path="/Login/LoginSuite/:email" element={<LoginSuite />} />
+           
             <Route path="/Signin" element={<Signin />} />
             <Route path="/ForgetPassword" element={<ForgetPassword />} />
-            <Route path="/WalletClient" element={<WalletClient />} />
-            <Route path="/DetailComponent" element={<DetailComponent />} />
+            <Route path="/WalletClient/:email" element={<WalletClient />} />
+            <Route path="/DetailComponent/:email" element={<DetailComponent />} />
+            <Route path="/ViewDisconnect/:email" element={<ViewDisconnect />} />
             
           </Routes>
         </BrowserRouter>

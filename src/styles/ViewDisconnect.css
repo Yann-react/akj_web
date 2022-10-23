@@ -27,4 +27,5 @@
 .part-deco :nth-child(0n+2){
     color: white;
     font-size: 30px;
+    font-weight: bold;
 }

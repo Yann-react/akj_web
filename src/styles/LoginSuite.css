@@ -35,20 +35,29 @@
   .log_logSuit {
     width: 140%;
   }
+  .name-co{
+    margin-left: 60px;
+  }
 }
 @media screen and (max-width: 1236px) {
   .log_logSuit {
     width: 140%;
   }
+  .name-co{
+    margin-left: 80px;
+  }
+  
 }
 @media screen and (max-width: 1194.4px) {
   .log_logSuit {
     width: 150%;
+    
   }
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1142px) {
   .log_logSuit {
     width: 150%;
+    height: 60%;
   }
 }
 @media screen and (max-width: 1121.6px) {
@@ -105,7 +114,7 @@
 @media screen and (max-width: 564px) {
   .log_logSuit {
     width: 320%;
-    height: 100%;
+    height: 60%;
     margin-left: -130px;
   }
   .title_co {
@@ -115,7 +124,7 @@
 
 @media screen and (max-width: 503.2px) {
   .log_logSuit {
-    margin-left: -100px;
+    margin-left: -130px;
     width: 350%;
   }
 }

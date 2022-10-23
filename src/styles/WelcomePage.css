@@ -28,6 +28,9 @@
   font-weight: bolder;
   justify-content: flex-start;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1290px) {

@@ -65,7 +65,10 @@
   color: #4d3a34;
   font-weight: bolder;
 }
-
+.lien_inscrip{
+text-decoration: underline;
+  
+}
 @media screen and (max-width: 1290px) {
   .box-logs {
     width: 120%;
